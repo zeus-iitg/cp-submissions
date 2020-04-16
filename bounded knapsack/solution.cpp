@@ -78,7 +78,7 @@ int KnapSack()
         for(int j=W; j>=wt[i]; j--)
             dp[j] = max(dp[j] , val[i] + dp[j-wt[i]]);
 
-    return *max_element(dp,dp+W+1);
+    return dp[W];
 }
 
 int main()
