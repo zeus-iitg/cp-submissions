@@ -167,8 +167,8 @@ void dfs(int v, int p, bool keep){
         add(v, p, -1);
 }
 ```
-## 4. My invented style O(nlog n).
-This implementation for "DSU on tree" technique is new and invented by me. This implementation is easier to code than others.</br>
+## 4. Arpa's invented style O(nlog n).
+This implementation for "DSU on tree" technique is new and invented by Arpa. This implementation is easier to code than others.</br>
 Let **st[v]** be the dfs starting time of vertex v, **ft[v]** be it's dfs finishing time and **ver[time]** is the vertex whose starting time is equal to time.
 ```cpp
 int cnt[maxn];
